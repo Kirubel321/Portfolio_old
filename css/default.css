@@ -1,0 +1,368 @@
+:root{
+    --mainColor: #eaeaea;
+    --secondaryColor:#fff;
+
+    --borderColor: #c1c1c1;
+ 
+    --barColor: #c1c1c1;
+
+    --mainText: black;
+    --secondaryText: #4b5156;
+
+    --themeDotBorder: #24292e;
+    --previewBg: rgb(251, 249, 243, 0.8);
+
+
+    --buttonColor: black;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+body *{
+    transition: 0.3s;
+}
+ul{
+    list-style: none;
+}
+h1{ font-size: 56px;}
+h2{ font-size: 36px;}
+h3{ font-size: 28px;}
+h4{ font-size: 24px;}
+h5{ font-size: 20px;}
+h6{ font-size: 16px;}
+a{
+    color: var(--secondaryText);
+}
+h1, h2, h3, h4, h5, h6, strong{
+    color: var(--mainText);
+    font-family: 'Russo One', sans-serif;
+    font-weight: 500;
+}
+p, li, span, label, input, textarea{
+    color: var(--secondaryText);
+    font-family: 'Roboto Mono', monospace;
+}
+.s1{
+    background-color: var(--mainColor);
+    border-bottom: 1px solid var(--borderColor);
+    overflow: auto;
+}
+
+.s2{
+    background-color: var(--secondaryColor);
+    border-bottom: 1px solid var(--borderColor);
+    overflow: auto;
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    color: var(--mainText);
+}
+nav .navbar-toggler:hover{
+    background-color: var(--themeDotBorder);
+}
+nav .navbar-toggler:d{
+    background-color: var(--themeDotBorder);
+}
+#submit-btn{
+	margin-top: 10px;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom:10px; 
+	color: #fff;
+	background-color: var(--buttonColor);
+	border:none;
+}
+/* #preview-shadow{
+	background-color: var(--previewShadow);
+	max-width: 300px;
+	height: 180px;
+	padding-left: 30px;
+	padding-top: 30px;
+} */
+
+
+.logo_{
+    background-color: var(--secondaryColor);
+    border: 1px solid var(--borderColor);
+    border-radius: 5px;
+
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 3px -1px rgb(0,0,0,0.75);
+    box-shadow: -1px 1px 3px -1px rgb(0,0,0,0.75);
+}
+.greeting-wrapper{
+    display: grid;
+    border: 2px dashed lightcoral;
+    min-height:10em;
+    justify-content: center;
+    align-content: center;
+}
+.intro-wrapper{
+    background-color: var(--secondaryColor);
+    border: 1px solid var(--borderColor);
+    border-radius: 5px 5px 0 0;
+
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 3px -1px rgb(0,0,0,0.75);
+    box-shadow: -1px 1px 3px -1px rgb(0,0,0,0.75);
+}
+.about_wrapper{
+    background-color: var(--mainColor);
+    border: 1px solid var(--borderColor);
+    border-radius: 5px 5px 0 0;
+
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 3px -1px rgb(0,0,0,0.75);
+    box-shadow: -1px 1px 3px -1px rgb(0,0,0,0.75);
+}
+.skills_wrapper{
+    background-color: var(--secondaryColor);
+    border: 1px solid var(--borderColor);
+    border-radius: 5px 5px 0 0;
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 3px -1px rgb(0,0,0,0.75);
+    box-shadow: -1px 1px 3px -1px rgb(0,0,0,0.75);
+}
+.skills_wrapper2{
+    background-color: var(--mainColor);
+    border: 1px solid var(--borderColor);
+    border-radius: 5px 5px 0 0;
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 3px -1px rgb(0,0,0,0.75);
+    box-shadow: -1px 1px 3px -1px rgb(0,0,0,0.75);
+}
+/* .project_card{
+    background-color: var(--secondaryColor);
+    border: 1px solid var(--borderColor);
+    border-radius: 5px 5px 0 0;
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 3px -1px rgb(0,0,0,0.75);
+    box-shadow: -1px 1px 3px -1px rgb(0,0,0,0.75);
+} */
+.tag{
+    display: inline-block;
+    color:#fff;
+    background-color: #888;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 2px 5px;
+    font-size: 12px;
+}
+.contact_wrapper{
+    background-color: var(--secondaryColor);
+    border: 1px solid var(--borderColor);
+    border-radius: 5px 5px 0 0;
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 3px -1px rgb(0,0,0,0.75);
+    box-shadow: -1px 1px 3px -1px rgb(0,0,0,0.75);
+}
+
+.contact_me_wrapper{
+    background-color: var(--mainColor);
+    border: 1px solid var(--borderColor);
+    border-radius: 3px 3px 3px 3px;
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 3px -1px rgb(0,0,0,0.75);
+    box-shadow: -1px 1px 3px -1px rgb(0,0,0,0.75);
+}
+.address_wrapper{
+    background-color: var(--mainColor);
+    border: 1px solid var(--borderColor);
+    border-radius: 5px 5px 0 0;
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 3px -1px rgb(0,0,0,0.75);
+    box-shadow: -1px 1px 3px -1px rgb(0,0,0,0.75);
+}
+.footer_wrapper{
+    background-color: var(--mainColor);
+    border: 1px solid var(--borderColor);
+    border-radius: 5px 5px 0 0;
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 3px -1px rgb(0,0,0,0.75);
+    box-shadow: -1px 1px 3px -1px rgb(0,0,0,0.75);
+}
+#profile_pic{
+    display: block;
+    margin: 10px auto;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border: 2px solid var(--borderColor)
+}
+
+.theme-dot{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 5px;
+    border: 2px solid var(--themeDotBorder);
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 3px -1px rgb(0,0,0,0.75);
+    box-shadow: -1px 1px 3px -1px rgb(0,0,0,0.75);
+    cursor: pointer;
+}
+#preview{
+    border: 1.5 solid #17a2b8;
+    background-color: var(--previewBg);
+    padding: 25px;
+}
+.theme-dot:hover{
+    border-width:  5px;
+    height: 40px;
+    width: 40px;
+}
+hr{
+    border: 2px solid var(--borderColor);
+}
+#light-mode{
+    background-color: #fff;
+}
+#blue-mode{
+    background-color: #192734;
+}
+#green-mode{
+    background-color: #78866b;
+}
+#purple-mode{
+    background-color: #7E4C74;
+}
+#settings-note{
+    font-size:12px;
+    font-style: italic;
+    text-align: center;
+}
+
+nav{
+    background-color: var(--mainColor);
+    border-bottom: 1px solid var(--borderColor);
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 3px -1px rgb(0,0,0,0.75);
+    box-shadow: -1px 1px 3px -1px rgb(0,0,0,0.75);
+}
+.h-bg-1{
+    background-color: var(--secondaryColor);
+    height: 730px;
+    padding-top: 300px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+/* JS */
+
+@keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}
+
+  #Skill-JS {
+    animation: Animate-JS 5s;
+    border-radius:20px;
+    width: 75%;
+    height: 30px;
+    position: absolute;
+    background-color: var(--barColor);
+}
+
+/* HTML */
+
+@keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 85%}
+}
+  #Skill-HTML {
+    animation: Animate-HTML 5s;
+    border-radius:20px;
+    width: 85%;
+    height: 30px;
+    position: absolute;
+    background-color: var(--barColor);
+}
+/* CSS */
+
+@keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}
+  #Skill-CSS {
+    animation: Animate-CSS 5s;
+    border-radius:20px;
+    width: 75%;
+    height: 30px;
+    position: absolute;
+    background-color: var(--barColor);
+}
+
+@keyframes Animate-BOOTSTRAP {
+    from {
+    width: 10px;
+}
+to {
+    width: 85%}
+}
+  #Skill-BOOTSTRAP {
+    animation: Animate-BOOTSTRAP 5s;
+    border-radius:20px;
+    width: 85%;
+    height: 30px;
+    position: absolute;
+    background-color: var(--barColor);
+  }
+
+/* C++ */
+
+@keyframes Animate-C {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}
+  #Skill-C {
+    animation: Animate-C 5s;
+    border-radius:20px;
+    width: 65%;
+    height: 30px;
+    position: absolute;
+    background-color: var(--barColor);
+}
+
+/* JAVA */
+
+@keyframes Animate-JAVA {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}
+  #Skill-JAVA {
+    animation: Animate-JAVA 5s;
+    border-radius:20px;
+    width: 80%;
+    height: 30px;
+    position: absolute;
+    background-color: var(--barColor);
+  }
+  .SkillBar {
+    width: 90%;
+    height: 30px;
+    position: relative;
+    border-radius:20px;
+    background: var(--secondaryColor);
+    margin: 20px auto;
+}
